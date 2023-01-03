@@ -11,7 +11,7 @@ namespace Miku.Interfaces
     public interface IGraphics
     {
         /// <summary>
-        /// Set backround
+        /// Set background
         /// </summary>
         /// <param name="asset">ImageAsset object, who represent new background</param>
         void SetBackground(ImageAsset asset);
@@ -39,6 +39,22 @@ namespace Miku.Interfaces
         /// <param name="asset">Object who represent a new sprite</param>
         /// <param name="id">Actor id</param>
         void UpdateActorSprite(ImageAsset asset, int id);
+        /// <summary>
+        /// Update position for actor with <c>actorId</c>
+        /// </summary>
+        /// <param name="actorId">Integer, who represent actor object</param>
+        /// <param name="newPosition">Vector2 object, who describes new actor position</param>
+        void UpdateActorPosition(int actorId, Vector2 newPosition);
+        /// <summary>
+        /// Update position for actor with <c>actorId</c>
+        /// </summary>
+        /// <param name="actorId">Integer, who represent actor object</param>
+        /// <param name="x">New horisontal position, -1 to ignore</param>
+        /// <param name="y">New vertical position, -1 to ignore</param>
+        void UpdateActorPosition(int actorId, double x, double y)
+        {
+            UpdateActorPosition(actorId, new(x, y));
+        }
         /// <summary>
         /// Delete object who render specefic actor
         /// </summary>
