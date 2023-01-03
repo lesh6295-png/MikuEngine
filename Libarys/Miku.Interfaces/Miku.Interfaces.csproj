@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Miku.Types\Miku.Types.Enums.csproj" />
+    <ProjectReference Include="..\Types\Assets\Miku.Types.Assets\Miku.Types.Assets.csproj" />
     <ProjectReference Include="..\Types\Miku.Types.Enums\Miku.Types.Enums.csproj" />
   </ItemGroup>
 
