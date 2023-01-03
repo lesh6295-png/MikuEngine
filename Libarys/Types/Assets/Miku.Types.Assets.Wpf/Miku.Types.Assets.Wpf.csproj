@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Miku.Types.Assets\Miku.Types.Assets.csproj" />
     <ProjectReference Include="..\Miku.Types.Assets\Miku.Types.Assets.csproj" />
   </ItemGroup>
+
 
 </Project>
