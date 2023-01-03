@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miku.Interfaces", "Libarys\Miku.Interfaces\Miku.Interfaces.csproj", "{CB0646A8-52CD-430C-A88E-A05A4E4AC620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miku.Interfaces", "Libarys\Miku.Interfaces\Miku.Interfaces.csproj", "{CB0646A8-52CD-430C-A88E-A05A4E4AC620}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libarys", "Libarys", "{902D27CC-E1A8-4883-B6ED-7E0B8F07161B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miku.Types", "Libarys\Miku.Types\Miku.Types.csproj", "{8795FB63-A40A-438E-8DEB-4B2A856F8113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miku.Types.Enums", "Libarys\Types\Miku.Types.Enums\Miku.Types.Enums.csproj", "{8795FB63-A40A-438E-8DEB-4B2A856F8113}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Types", "Types", "{E89C5E63-0251-4712-B0C8-F15243FEA758}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miku.Types.Assets", "Libarys\Types\Assets\Miku.Types.Assets\Miku.Types.Assets.csproj", "{4058F74E-0473-4D0E-8915-0A4F92C19364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miku.Types.Base", "Libarys\Types\Miku.Types.Base\Miku.Types.Base.csproj", "{15AFE0F4-A88B-436A-AF2D-2DEDB8897402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{736A0379-3B5A-428A-8DC6-B0B75F6C5140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miku.Types.Assets.Wpf", "Libarys\Types\Assets\Miku.Types.Assets.Wpf\Miku.Types.Assets.Wpf.csproj", "{0B550CA2-2B01-4286-A835-CFD804CDBD91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,13 +33,30 @@ Global
 		{8795FB63-A40A-438E-8DEB-4B2A856F8113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8795FB63-A40A-438E-8DEB-4B2A856F8113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8795FB63-A40A-438E-8DEB-4B2A856F8113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4058F74E-0473-4D0E-8915-0A4F92C19364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4058F74E-0473-4D0E-8915-0A4F92C19364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4058F74E-0473-4D0E-8915-0A4F92C19364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4058F74E-0473-4D0E-8915-0A4F92C19364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AFE0F4-A88B-436A-AF2D-2DEDB8897402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AFE0F4-A88B-436A-AF2D-2DEDB8897402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AFE0F4-A88B-436A-AF2D-2DEDB8897402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AFE0F4-A88B-436A-AF2D-2DEDB8897402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B550CA2-2B01-4286-A835-CFD804CDBD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B550CA2-2B01-4286-A835-CFD804CDBD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B550CA2-2B01-4286-A835-CFD804CDBD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B550CA2-2B01-4286-A835-CFD804CDBD91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CB0646A8-52CD-430C-A88E-A05A4E4AC620} = {902D27CC-E1A8-4883-B6ED-7E0B8F07161B}
-		{8795FB63-A40A-438E-8DEB-4B2A856F8113} = {902D27CC-E1A8-4883-B6ED-7E0B8F07161B}
+		{8795FB63-A40A-438E-8DEB-4B2A856F8113} = {E89C5E63-0251-4712-B0C8-F15243FEA758}
+		{E89C5E63-0251-4712-B0C8-F15243FEA758} = {902D27CC-E1A8-4883-B6ED-7E0B8F07161B}
+		{4058F74E-0473-4D0E-8915-0A4F92C19364} = {736A0379-3B5A-428A-8DC6-B0B75F6C5140}
+		{15AFE0F4-A88B-436A-AF2D-2DEDB8897402} = {E89C5E63-0251-4712-B0C8-F15243FEA758}
+		{736A0379-3B5A-428A-8DC6-B0B75F6C5140} = {E89C5E63-0251-4712-B0C8-F15243FEA758}
+		{0B550CA2-2B01-4286-A835-CFD804CDBD91} = {736A0379-3B5A-428A-8DC6-B0B75F6C5140}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04996033-1C52-4E3A-AE1F-0F73AD49CF9E}

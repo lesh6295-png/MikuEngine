@@ -12,4 +12,6 @@ namespace Miku.Types.Enums
 
         Unknown
     }
+
+    
 }

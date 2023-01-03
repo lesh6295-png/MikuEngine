@@ -2,10 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Miku.Types.Enums</AssemblyName>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Miku.Types\Miku.Types.Enums.csproj" />
-  </ItemGroup>
 
 </Project>
