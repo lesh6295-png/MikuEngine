@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Miku.Interfaces\Miku.Interfaces.csproj" />
+    <ProjectReference Include="..\Types\Assets\Miku.Types.Assets\Miku.Types.Assets.csproj" />
+    <ProjectReference Include="..\Types\Miku.Types.Base\Miku.Types.Base.csproj" />
+    <ProjectReference Include="..\Types\Miku.Types.Enums\Miku.Types.Enums.csproj" />
+  </ItemGroup>
+
+</Project>

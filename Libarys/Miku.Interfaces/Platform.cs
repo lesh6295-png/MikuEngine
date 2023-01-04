@@ -20,5 +20,10 @@ namespace Miku.Interfaces
                 ret = OsType.iOS;
             return ret;
         }
+        /// <summary>
+        /// Return information about surrent OS
+        /// </summary>
+        /// <returns></returns>
+        OsType OsInfo();
     }
 }
