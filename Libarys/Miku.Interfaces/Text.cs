@@ -34,5 +34,37 @@ namespace Miku.Interfaces
         /// <param name="text">Text to printing</param>
         /// <param name="id">Text box id</param>
         void Print(string text, int id);
+        /// <summary>
+        /// Waiting for user input. I recommend for you use async version
+        /// </summary>
+        void InputWait()
+        {
+            InputWaitAsync().Wait();
+        }
+        /// <summary>
+        /// Async waiting for user input
+        /// </summary>
+        /// <returns></returns>
+        Task InputWaitAsync();
+        /// <summary>
+        /// Call <c>Print(text)</c> method and wait for user input
+        /// </summary>
+        /// <param name="text">Text to printing</param>
+
+        void Say(string text)
+        {
+            Print(text);
+            InputWaitAsync().Wait();
+        }
+        /// <summary>
+        /// Call <c>Print(text,id)</c> method and wait for user input
+        /// </summary>
+        /// <param name="text">Text to printing</param>
+        /// <param name="id">Text box id</param>
+        void Say(string text, int id)
+        {
+            Print(text, id);
+            InputWaitAsync().Wait();
+        }
     }
 }
