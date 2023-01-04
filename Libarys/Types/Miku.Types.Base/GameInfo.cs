@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miku.Interfaces
+namespace Miku.Types.Base
 {
-    public interface IHost : IPlatformInfo, IText, IGraphics
+    class GameInfo
     {
     }
 }
