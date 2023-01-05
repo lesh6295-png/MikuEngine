@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Miku.Types.Base
 {
-    public class Id
+    public class Id : IComparer<Id>
     {
         static int next = 1;
         public int Value { get; private set; }
