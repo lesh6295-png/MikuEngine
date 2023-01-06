@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyVersion>1.0.3.9</AssemblyVersion>
+    <FileVersion>1.0.3.9</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libarys\Miku\Miku.csproj" />
+  </ItemGroup>
+
+</Project>
