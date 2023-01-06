@@ -16,7 +16,7 @@ namespace Miku.Types.Base
         /// </summary>
         public Version Version { get; set; }
         /// <summary>
-        /// Name to render, it`s need only to modding. You don`t need to change this if type is main
+        /// Name to render
         /// </summary>
         public string RenderName { get; set; } = "game";
     }

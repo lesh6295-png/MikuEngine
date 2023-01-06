@@ -8,6 +8,7 @@ namespace Miku.Types.Assets
 {
     public abstract class ImageAsset : Asset
     {
+        public abstract object Load();
 
     }
 }
